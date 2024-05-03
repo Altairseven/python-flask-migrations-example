@@ -4,6 +4,8 @@ Por las dudas crea el venv, y instala paquetes desde powershell, en git bash no 
 ```
 PS python -m venv .\.venv
 PS .\.venv\Scripts\Activate.ps1
+
+PS python -m pip install -r requirements.txt
 ```
 
 
@@ -44,3 +46,7 @@ PS flask db upgrade <revision>
 ```
 PS flask db downgrade <revision>
 ```
+
+### Fuentes:
+
+https://www.digitalocean.com/community/tutorials/how-to-perform-flask-sqlalchemy-migrations-using-flask-migrate#step-02-setting-up-an-example-database-and-model
